@@ -1,5 +1,4 @@
 # Developing an application based on multiple microservices using AWS Copilot and AWS Fargate
-<br />
 
 ## Introduction
 On July 9, 2020, we introduced AWS Copilot, a new command line interface (CLI) to build, release, and operate production ready containerized applications on Amazon Elastic Container Service (Amazon ECS) and AWS Fargate. In this post, we walk you through how to communicate between microservices with service discovery using  AWS Copilot.
