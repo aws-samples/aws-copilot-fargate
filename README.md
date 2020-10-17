@@ -1,5 +1,5 @@
 # Developing an application based on multiple microservices using AWS Copilot and AWS Fargate
-
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 ## Introduction
 On July 9, 2020, we introduced AWS Copilot, a new command line interface (CLI) to build, release, and operate production ready containerized applications on Amazon Elastic Container Service (Amazon ECS) and AWS Fargate. In this post, we walk you through how to communicate between microservices with service discovery using  AWS Copilot.
 To illustrate, we will build a fully functional application named “emoji-race” to display the most popular emojis on Twitter. The application will be composed of a “tracker”Backend Service that subscribes to a stream of Twitter emojis and stores the counts in memory, and an “api” frontend service that will accept requests from the internet and query the “tracker” service to send the top results back to the users.
@@ -18,6 +18,7 @@ AWS Copilot provides a simple declarative set of commands, including examples an
 
 
 ## Steps
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 Here are the steps we’ll follow to implement the above architecture:
 
 1. Create and configure the AWS Cloud9 environment
