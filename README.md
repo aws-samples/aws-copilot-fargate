@@ -19,6 +19,7 @@ AWS Copilot provides a simple declarative set of commands, including examples an
 
 ## Steps
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 Here are the steps we’ll follow to implement the above architecture:
 
 1. Create and configure the AWS Cloud9 environment
