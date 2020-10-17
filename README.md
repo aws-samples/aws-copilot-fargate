@@ -11,14 +11,12 @@ To implement the instructions in this post, you will need the following accounts
 * An AWS account – [how to create a new AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * A GitHub account – [sign up for a new GitHub account](https://help.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account)
 
-<br />
 
 ## Architecture
 AWS Copilot provides a simple declarative set of commands, including examples and guided experiences built in to help customers deploy quickly. AWS Copilot automates each step in the deployment lifecycle including pushing to a registry, creating a task definition, and creating a cluster.
 
 <img width="1042" alt="architecture-screenshot" src="images/Architecture.png">
 
-<br />
 
 ## Steps
 Here are the steps we’ll follow to implement the above architecture:
