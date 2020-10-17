@@ -1,0 +1,16 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": "Twitter emoji tracker service",
+  "main": "main.js",
+  "author": {
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com",
+    "organization": true
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "eventsource": "^1.0.7",
+    "express": "^4.17.1"
+  }
+}

@@ -1,17 +1,16 @@
-## My Project
+# emoji-race
+Display in real time the most popular K emojis from twitter.
+The application is inspired by https://observablehq.com/@mbostock/twitter-emoji-race
 
-TODO: Fill this README out!
+## API service
 
-Be sure to:
+The [API service](https://github.com/efekarakus/emoji-race/tree/mainline/api) is a load balanced web service to display results.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Tracker service
 
-## Security
+The [Tracker service](https://github.com/efekarakus/emoji-race/tree/mainline/tracker) is a backend service that is subscribed to a stream of Twitter emojis 
+from [Emojitracker](https://github.com/mroth/emojitracker).
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+## Deploy using AWS Copilot
+This application is deployed using the [AWS Copilot CLI](https://github.com/aws/copilot-cli).
+The resulting artifacts are under the [copilot/](https://github.com/efekarakus/emoji-race/tree/mainline/copilot) directory
