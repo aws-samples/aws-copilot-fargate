@@ -30,6 +30,11 @@ Here are the steps we’ll follow to implement the above architecture:
     * Create the “emoji-race” application
     * Create the Backend Service
     * Create the Load Balanced Web Service
+## Contributors
+
+Irshad A Buchh, AWS
+
+Efe Karakus, AWS
 
 ## Details
 For additional details, please refer to the associated [blog post](https://aws.amazon.com/blogs/containers/developing-an-application-based-on-multiple-microservices-using-the-aws-copilot-and-aws-fargate/).
